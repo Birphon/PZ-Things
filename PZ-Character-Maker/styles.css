@@ -1,0 +1,48 @@
+/* Add your styles here */
+
+/* Container for the three columns */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Individual columns */
+.column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Style the buttons */
+.buttons button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.buttons button:hover {
+    background-color: #2980b9;
+}
+
+/* Style the checkboxes */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Style the current status section */
+.current-status {
+    text-align: center;
+}
+
+/* Style the skills list */
+#skills-list {
+    list-style: none;
+    padding: 0;
+}

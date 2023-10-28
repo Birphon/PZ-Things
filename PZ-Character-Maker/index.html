@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="column">
+            <div class="buttons">
+                <!-- Buttons with startingPoint and skillValues -->
+                <button id="button1" data-startingPoint="10" data-skillValue="running">Button 1</button>
+                <button id="button2" data-startingPoint="15" data-skillValue="swimming">Button 2</button>
+                <!-- Add more buttons as needed -->
+            </div>
+        </div>
+        <div class="column">
+            <div class="positive-skills">
+                <!-- Positive skills checkboxes -->
+                <label>
+                    <input type="checkbox" id="running-checkbox"> Running
+                </label>
+                <label>
+                    <input type="checkbox" id="swimming-checkbox"> Swimming
+                </label>
+                <!-- Add more positive skills checkboxes -->
+            </div>
+            <div class="negative-skills">
+                <!-- Negative skills checkboxes -->
+                <label>
+                    <input type="checkbox" id="unfit-checkbox"> Unfit
+                </label>
+                <!-- Add more negative skills checkboxes -->
+            </div>
+        </div>
+        <div class="column">
+            <div class="current-status">
+                <div>
+                    <h2>Starting Points:</h2>
+                    <p id="starting-points">0</p>
+                </div>
+                <div>
+                    <h2>Skills:</h2>
+                    <ul id="skills-list">
+                        <!-- Skill values will be added dynamically -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
